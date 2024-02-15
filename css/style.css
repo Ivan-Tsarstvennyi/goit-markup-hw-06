@@ -525,7 +525,8 @@ height: 40px;
   display: flex;
    justify-content: center;
    gap: 24px; 
-   margin: 12px ;
+   /* margin: 12px ; */
+   margin-bottom: 8px;
 }
 .svg-ul:hover{
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
