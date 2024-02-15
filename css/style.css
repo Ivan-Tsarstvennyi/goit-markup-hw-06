@@ -21,6 +21,7 @@ a {
 }
 img {
   display: block;
+  width: 100%;
 }
 ul {
   list-style-type: none;
@@ -270,9 +271,6 @@ justify-content: flex-start;
 flex-direction: column;
   gap: 24px;
   width: 100%;
-  
-  
-  
 }
 .img-team{
   border-radius: 0px 0px 4px 4px;
@@ -404,6 +402,8 @@ margin-bottom: 8px ;
   display: flex;
   align-items: center;
   flex-direction: column;
+  width: 264px;
+  margin: 0 auto;
 }
 .site-abzac {
   line-height: 1.2;
