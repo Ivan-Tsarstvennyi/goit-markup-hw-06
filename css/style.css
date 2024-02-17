@@ -601,6 +601,7 @@ transform: translateY(0);
   line-height: 1.5;
    letter-spacing: 0.02em;
    margin-bottom: 16px;
+   
 }
 .footer-ul .link-svg{
   gap: 16px; 
@@ -939,6 +940,10 @@ font-size: 12px;
   /* border-color: #4D5AE5;  */
 /* } */
 @media screen and (min-width:768px) {
+  .container-links{
+max-width: 768px;
+  }
+
   .container{
     width: 768px;
     width: 100%;
@@ -1058,5 +1063,7 @@ flex-wrap:wrap;
  row-gap:72px;
 column-gap: 24px; 
 }
+.main-site-app{
+    width: calc((100% - 24px) / 2);
 }
-
+}
