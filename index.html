@@ -17,28 +17,94 @@
 <body>
   <header class="header">
     <!-- Логотип -->
-    <div class="container-links">
+    <div class=" container container-links">
       <nav class="navs">
         <a href="./index.html" class="logo-header">Web<span class="logo-header-two">Studio</span></a>
-        <!-- Інформація -->
-        <ul class="page-link">
-          <li><a href="./index.html" class="link current-link">Studio</a></li>
-          <li><a href="" class="link">Portfolio</a></li>
-          <li><a href="" class="link">Contacts</a></li>
-        </ul>
+        <button type="button" class="menu-button is-open">
+          <svg height="24" width="24">
+            <use class="icon-menu" href="./images/icons.svg#icon-burger-menu"></use>
+          </svg>
+        </button>
+        <!-- modal -->
+        <div class="nav-title-container">
+          <button type="button" class="icon-cross-box">
+            <svg class="nav-close-icon" height="8" width="8">
+              <use href="./images/icons.svg#icon-cross"></use>
+            </svg>
+          </button>
+          <ul class="nav-title">
+            <li>
+              <a class="nav-list-el current" href="./index.html">Studio</a>
+            </li>
+            <li>
+              <a class="nav-list-el" href="" target="_self">Portfolio</a>
+            </li>
+            <li>
+              <a class="nav-list-el" href="" target="_self">Contacts</a>
+            </li>
+          </ul>
+          <address class="address">
+            <ul class="contacts">
+              <li>
+                <a class="address-list-el" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li>
+                <a class="address-list-el" href="tel:+110001111111">+11 (000) 111-11-11</a>
+              </li>
+            </ul>
+          </address>
+          <ul class="nav-icons is-open">
+            <li class="nav-icon-box">
+              <a href="" class="nav-social-href">
+                <svg class="nav-icon" height="24" width="24">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="nav-icon-box">
+              <a href="" class="nav-social-href">
+                <svg class="nav-icon" height="24" width="24">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="nav-icon-box">
+              <a href="" class="nav-social-href">
+                <svg class="nav-icon" height="24" width="24">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="nav-icon-box">
+              <a href="" class="nav-social-href">
+                <svg class="nav-icon" height="24" width="24">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </nav>
-      <!-- Контакти -->
-      <address class="page-contacts">
-        <ul class="contacts">
-          <li>
-            <a href="mailto:info@devstudio.com" class="link-contacts">info@devstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="link-contacts">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </address>
     </div>
+
+    <!-- Інформація -->
+    <!-- <ul class="page-link">
+      <li><a href="./index.html" class="link current-link">Studio</a></li>
+      <li><a href="" class="link">Portfolio</a></li>
+      <li><a href="" class="link">Contacts</a></li>
+    </ul>
+    </nav> -->
+    <!-- Контакти
+    <address class="page-contacts">
+      <ul class="contacts">
+        <li>
+          <a href="mailto:info@devstudio.com" class="link-contacts">info@devstudio.com</a>
+        </li>
+        <li>
+          <a href="tel:+110001111111" class="link-contacts">+11 (000) 111-11-11</a>
+        </li>
+      </ul>
+    </address> -->
   </header>
   <main class="main1">
     <section class="main-information">
