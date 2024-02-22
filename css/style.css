@@ -1586,4 +1586,21 @@ margin-right: 120px;
     .nav-link:active {
         color: #404BBF;
     }
+    .footer .container{
+      align-items: flex-start;
+    }
+.footer-text{
+  max-width: 264px;
+}
+.footer-ul{
+  
+}
+
+    .foot-con{
+       flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 72px 24px;
+        max-width: 584px;
+    }
 }
