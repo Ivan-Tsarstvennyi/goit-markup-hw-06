@@ -53,7 +53,8 @@ ul {
       max-width: 320px;
     padding-left: 16px;
     padding-right: 16px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media screen and (min-width:768px) {
     .container{
@@ -126,7 +127,7 @@ flex-direction: column;
     padding: 0;
     }  
 }
-.nav-title-container .is-open{
+.nav-title-container vis{
  background-color: #ffffff;
 position: fixed; 
   width: 320px;
@@ -269,22 +270,16 @@ position: fixed;
 
   .contacts{
     gap: 24px;
-    padding: 0;
+    padding-top: 0;
+    padding-bottom: 48px;
     display: flex;
     flex-direction: column;
-    margin: auto;
 }
 @media screen and (min-width:768px) {
   .contacts{
     display: flex;
     font-size: 12px;
     font-weight: 400;
-    gap:12px;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-
   }
 }
   @media screen and (min-width: 1158px){
@@ -486,7 +481,7 @@ position: fixed;
 }
 @media screen and (min-width:768px) {
   .container-links{
-max-width: 768px;
+width: 100%;
   }
 }
 @media screen and (min-width: 1158px){
@@ -511,7 +506,9 @@ max-width: 768px;
 }
 
 .header-a {
-
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display:block;
 }
 .nav-social-href{
   width: 100%;
@@ -545,7 +542,7 @@ max-width: 768px;
   text-transform: uppercase;
   display: block;
   padding-top: 24px;
-  margin-right: 149px;
+  margin-right: 76px;
   padding-bottom: 24px;
 }
 @media screen and (min-width: 1158px){
@@ -686,7 +683,7 @@ address {
   background-size: cover;
   /* padding: 188px 0; */
   padding: 72px 0;
-   max-width: 320px;  
+   /* max-width: 1440px;  */
    background-position: center;
    margin: 0 auto;
 }
@@ -2322,7 +2319,7 @@ margin-bottom: 36px;
   padding: 112px 0;
    background-position: center;
    margin: 0 auto;
-   max-width: 768px;
+   width: 768px;
 }
 .button-main-order {
   background-color: #4d5ae5;
@@ -2624,7 +2621,7 @@ margin-right: 120px;
   }
 }
 /*menu-mobile*/
-.close-button-menu  {
+.close-button-menu {
     position: absolute;
   top:24px;
   right: 24px;
@@ -2672,7 +2669,7 @@ display: block;
 .menu.is-open .div-menu {
   opacity: 1;
 }
-.menu {
+.menu.is-open {
   opacity: 1;
   visibility: visible;
 }
@@ -2685,16 +2682,6 @@ background-color: #ffffff;
 width: 100%;
 height: 100%;
 padding: 72px 16px 40px 16px;
-}
-@media screen and (min-width: 768px) {
-  .div-menu{
-    display: none;
-  }
-}
-@media screen and (min-width: 1158px) {
-  .div-menu{
-    display: none;
-  }
 }
 .menu-list {
   display: flex;
