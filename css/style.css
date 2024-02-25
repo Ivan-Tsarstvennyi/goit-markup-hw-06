@@ -119,6 +119,14 @@ flex-direction: column;
     padding-top: 16px;
     padding-bottom: 16px;
 }
+@media screen and (min-width: 1158px) {
+  .header{
+  position: relative;
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    padding: 0;
+    }  
+}
 .nav-title-container vis{
  background-color: #ffffff;
 position: fixed; 
@@ -166,6 +174,16 @@ position: fixed;
   left: 70px;
   cursor: pointer;
   fill: black;
+}
+@media screen and (min-width: 758px){
+  .menu-button{
+  display: none;
+}
+}
+@media screen and (min-width: 1158px){
+ .menu-button{
+  display: none;
+}
 }
 /* modal */
 
@@ -262,6 +280,7 @@ position: fixed;
   padding-bottom: 24px;
   gap: 40px;
 }
+
 
 .address-list-el {
   font-weight: 500;
@@ -486,13 +505,7 @@ width: 100%;
   padding-bottom: 24px;
   display:block;
 }
-@media screen and (min-width: 1158px){
-  .header a {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  display:block;
-}
-}
+
 /* end modal */
 
 .logo-header {
@@ -560,11 +573,16 @@ address {
   display:none;
   gap: 40px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
+
 
 .page-contacts{
   display: none;
+}
+@media screen and (min-width: 758px){
+  .page-contacts{
+  display: flex;
+}
 }
 
 /* .contacts{
@@ -993,7 +1011,7 @@ footer {
 }
 @media screen and (min-width:768px) {
     .footer .container {
-    max-width: 768px;
+    max-width: 584px;
     justify-content: start;
     text-align: left;
       align-items: flex-start;
@@ -1002,8 +1020,6 @@ footer {
       margin-left: 107px;
       margin-right:107px;
       margin: 0 auto;
-      padding-left: 16px;
-      padding-right: 16px;
       row-gap: 72px;
       column-gap: 24px;
       align-items: baseline;
@@ -1175,6 +1191,7 @@ height: 40px;
   align-items: center;
   justify-content: center;
   height: 112px;
+  width: 264px;
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
@@ -1194,7 +1211,7 @@ height: 40px;
   .svg-ul{
   display: flex;
    justify-content: center;
-   gap: 17px; 
+   gap: 24px; 
    margin: 12px ;
 }
 }
@@ -2339,7 +2356,6 @@ flex-wrap:wrap;
 row-gap:72px;
 column-gap:24px;}
 .main-strategy{
-      
     /* font-size: 20px; */
     font-size: 36px;
     /* line-height: 1.2; */
@@ -2350,11 +2366,12 @@ column-gap:24px;}
     /* text-align: center; */
     color: #2e2f42;
     font-weight: 700;
+    text-align: left;
 }
 .main-team{
   background-color: #f4f4fd;
     padding: 120px 0;
-    width: 768px;
+
 }
 .img-teams{
   display: flex;
@@ -2417,6 +2434,7 @@ margin-bottom: 72px;
   .main-team .container{
     width: 1158px;
     width: calc((100% - 24) / 4);
+    padding: 0;
   }
 }
 @media screen and (min-width: 1158px){
@@ -2461,6 +2479,14 @@ flex-wrap:wrap;
  row-gap:72px;
 column-gap: 24px; 
 }
+@media screen and (min-width: 768px){
+  .main-site-apps{
+     display: flex;
+    gap: 48px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    }
+}
 @media screen and (min-width: 1158px) {
   .main-site-apps{
  display: flex;
@@ -2476,24 +2502,35 @@ column-gap: 24px;
   .main-site-app {
   width: calc((100% - 48px) / 3);
    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   
 }
+
 }
 
 
-.menu-button{
-  display: flex;
-}
+
 .page-contacts{
   display: block;
 }
+
+
 .page-link{
   display: none;
-        gap: 40px;
-        
+        gap: 40px;   
 }
+@media screen and (min-width: 768px){
+  .page-link{
+    display: flex;
+  }
+}
+
 .header a{
   padding: 0 ;
+}
+@media screen and (min-width: 1158px){
+  .header a {
+
+  display:block;
+}
 }
 .contacts{
       display: none;
@@ -2501,6 +2538,13 @@ column-gap: 24px;
     flex-direction: column;
     padding-top: 0;
     padding-bottom: 0;
+}
+@media screen and (min-width:768px) {
+  .contacts{
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+  }
 }
 .logo-header-{
 margin-right: 120px;
@@ -2542,6 +2586,7 @@ margin-right: 120px;
     .contacts{
       display: flex;
       flex-direction: row;
+      font-size: 16px;
       padding-top: 15px;
     padding-bottom: 15px;
     }
@@ -2569,8 +2614,7 @@ margin-right: 120px;
   .main-team{
       background-color: #f4f4fd;
   padding: 120px 0 ;
-  width: 1440px;
-    max-width: 1158px;
+
   
   }
 }
