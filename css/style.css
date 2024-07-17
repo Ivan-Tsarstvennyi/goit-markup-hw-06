@@ -723,7 +723,7 @@ address {
   /* background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
   url(/images/people-office.jpg); */
      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-  url(../images/Dark-bg.jpg);
+  url(../images/washcars.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   /* padding: 188px 0; */
@@ -738,7 +738,7 @@ address {
 (min-resolution: 2dppx) {
 .main-information{
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-  url(../images/Dark-bg2x.jpg);
+  url(../images/washcars.jpg);
 } 
 }
 .main-strategy {
@@ -2349,7 +2349,7 @@ margin-bottom: 36px;
   .main-information {
   background-color: #2e2f42;
      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-  url(../images/Dark-bg2x-tablet.jpg);
+  url(../images/washcars.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 112px 0;
@@ -2616,7 +2616,7 @@ margin-right: 120px;
   .main-information {
   background-color: #2e2f42;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-  url(../images/people-office.jpg);
+  url(../images/m5cs.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 188px 0;

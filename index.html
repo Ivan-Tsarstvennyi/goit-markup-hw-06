@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>First project</title>
+  <title>Аренда Машин</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -20,11 +20,11 @@
     <!-- Логотип -->
     <div class=" container container-links">
       <nav class="navs">
-        <a href="./index.html" class="logo-header">Web<span class="logo-header-two">Studio</span></a>
+        <a href="./index.html" class="logo-header">Podbor<span class="logo-header-two">Car</span></a>
         <ul class="page-link">
           <li><a href="./index.html" class="link current-link">Studio</a></li>
-          <li><a href="" class="link">Portfolio</a></li>
-          <li><a href="" class="link">Contacts</a></li>
+          <li><a href="#komanda" class="link">Portfolio</a></li>
+          <li><a href="#cars" class="link">Work</a></li>
         </ul>
         <button type="button" class="menu-button is-open">
           <svg height="24" width="24">
@@ -32,7 +32,7 @@
           </svg>
         </button>
         <!-- modal -->
-        <div class="nav-title-container is-open">
+        <div class="nav-title-container *is-open*">
           <button type="button" class="icon-cross-box">
             <svg class="nav-close-icon" height="8" width="8">
               <use href="./images/icons.svg#icon-cross"></use>
@@ -43,19 +43,19 @@
               <a class="nav-list-ell active " href="./index.html">Studio</a>
             </li>
             <li>
-              <a class="nav-list-el" href="" target="_self">Portfolio</a>
+              <a class="nav-list-el" href="#komanda" target="_self">Portfolio</a>
             </li>
             <li>
-              <a class="nav-list-el" href="" target="_self">Contacts</a>
+              <a class="nav-list-el" href="#cars" target="_self">Work</a>
             </li>
           </ul>
           <address class="address">
             <ul class="contacts">
               <li>
-                <a class="address-list-el" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="address-list-el" href="mailto: podborcar@mail.ru">podborcar@mail.ru</a>
               </li>
               <li>
-                <a class="address-list-el" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                <a class="address-list-el" href="tel: +7938865 2433">+7 (938) 865 2433</a>
               </li>
             </ul>
           </address>
@@ -94,10 +94,10 @@
       <address class="page-contacts">
         <ul class="contacts">
           <li>
-            <a href="mailto:info@devstudio.com" class="link-contacts">info@devstudio.com</a>
+            <a href="mailto:podborcar@mail.ru" class="link-contacts">podborcar@mail.ru</a>
           </li>
           <li>
-            <a href="tel:+110001111111" class="link-contacts">+11 (000) 111-11-11</a>
+            <a href="tel:+79388652433" class="link-contacts">+7 (938) 865 2433</a>
           </li>
         </ul>
       </address>
@@ -110,8 +110,7 @@
   <main class="main1">
     <section class="main-information">
       <div class="container">
-        <h1 class="main-h">Effective Solutions for Your Business</h1>
-        <button class="button-main-order" type="button">Order Service</button>
+        <h1 class="main-h">Podbor Car</h1>
       </div>
     </section>
     <section class="informations">
@@ -126,10 +125,9 @@
               </svg>
             </div>
 
-            <h3 class="main-strategy">Strategy</h3>
+            <h3 class="main-strategy">Доступность</h3>
             <p class="information-paragraph">
-              Our goal is to identify the business problem to walk away with
-              the perfect and creative solution.
+             Наша команда и наши сервисы размещены по всей територии России.
             </p>
           </li>
 
@@ -139,10 +137,9 @@
                 <use href="./images/icons.svg#icon-astronaut"></use>
               </svg>
             </div>
-            <h3 class="main-strategy">Punctuality</h3>
+            <h3 class="main-strategy">Пунктуальность</h3>
             <p class="information-paragraph">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
+             Найдем для вас машину в указанные сроки.
             </p>
           </li>
 
@@ -152,10 +149,9 @@
                 <use href="./images/icons.svg#icon-clock"></use>
               </svg>
             </div>
-            <h3 class="main-strategy">Diligence</h3>
+            <h3 class="main-strategy">Скорость</h3>
             <p class="information-paragraph">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
+              Работая с нами вы поймете что такое, быстрый подбор автомобиля.
             </p>
           </li>
 
@@ -165,10 +161,9 @@
                 <use href="./images/icons.svg#icon-diagram"></use>
               </svg>
             </div>
-            <h3 class="main-strategy">Technologies</h3>
+            <h3 class="main-strategy">Технологии</h3>
             <p class="information-paragraph">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
+              Поиск и подбор проводится професиональным оборудованием.
             </p>
           </li>
         </ul>
@@ -180,313 +175,180 @@
       </div>
     </section>
     <section class="main-team">
-      <div class="container">
-        <h2 class="h-team">Our Team</h2>
+      <div  class="container">
+        <h2 id="komanda" class="h-team">Наша команда</h2>
         <ul class="img-teams">
           <li class="img-team">
-            <img src="./images/img11.jpg" alt="Product Designer-Mark Guerrero" width="264" />
+            <img src="./images/hozyain.jpg" alt="Основатель Максим Страховский" width="264" />
 
             <div class="icon-svg">
-              <h3 class="team-name">Mark Guerrero</h3>
-              <p class="team-paragraph">Product Designer</p>
-              <ul class="svg-ul">
-                <li class="svg-li">
-                  <a class="link-svg" href="instagram.com">
-                    <svg class="svg" width="16" height="16">
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="svg-li">
-                  <a class="link-svg" href="">
-                    <svg class="svg" width="16" height="16">
-                      <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="svg-li">
-                  <a class="link-svg" href="">
-                    <svg class="svg" width="16" height="16">
-                      <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="svg-li">
-                  <a class="link-svg" href="">
-                    <svg class="svg" width="16" height="16">
-                      <use href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
+              <h3 class="team-name">Максим Страховский</h3>
+              <p class="team-paragraph">Основатель</p>
             </div>
           </li>
 
           <li class="img-team">
-            <img src="./images/img(1).jpg" alt="Frontend Developer-Tom Ford" width="264" />
+            <img src="./images/menedger.jpg" alt="Менеджер Яна Федорина" width="264" />
 
             <div class="icon-svg">
-              <h3 class="team-name">Tom Ford</h3>
-              <p class="team-paragraph">Frontend Developer</p>
-              <ul class="svg-ul">
-                <li class="svg-li">
-                  <a class="link-svg" href="instagram.com">
-                    <svg class="svg" width="16" height="16">
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="svg-li">
-                  <a class="link-svg" href="">
-                    <svg class="svg" width="16" height="16">
-                      <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="svg-li">
-                  <a class="link-svg" href="">
-                    <svg class="svg" width="16" height="16">
-                      <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="svg-li">
-                  <a class="link-svg" href="">
-                    <svg class="svg" width="16" height="16">
-                      <use href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
+              <h3 class="team-name">Яна Федорина</h3>
+              <p class="team-paragraph">Менеджер</p>
             </div>
           </li>
           <li class="img-team">
-            <img src="./images/img(2).jpg" alt="Marketing-Camila Garcia" width="264" />
+            <img src="./images/admin.jpg" alt="Администратор Марина Глушкова" width="264" />
 
             <div class="icon-svg">
-              <h3 class="team-name">Camila Garcia</h3>
-              <p class="team-paragraph">Marketing</p>
-              <ul class="svg-ul">
-                <li class="svg-li">
-                  <a class="link-svg" href="instagram.com">
-                    <svg class="svg" width="16" height="16">
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="svg-li">
-                  <a class="link-svg" href="">
-                    <svg class="svg" width="16" height="16">
-                      <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="svg-li">
-                  <a class="link-svg" href="">
-                    <svg class="svg" width="16" height="16">
-                      <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="svg-li">
-                  <a class="link-svg" href="">
-                    <svg class="svg" width="16" height="16">
-                      <use href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
+              <h3 class="team-name">Марина Глушкова</h3>
+              <p class="team-paragraph">Администратор</p>
             </div>
           </li>
 
           <li class="img-team">
-            <img src="./images/img(3).jpg" alt="UI Designer-Daniel Wilson" width="264" />
+            <img src="./images/hozyin.jpg" alt="Совладелец Ярослав Филимонов" width="264" />
 
             <div class="icon-svg">
-              <h3 class="team-name">Daniel Wilson</h3>
-              <p class="team-paragraph">UI Designer</p>
-              <ul class="svg-ul">
-                <li class="svg-li">
-                  <a class="link-svg" href="instagram.com">
-                    <svg class="svg" width="16" height="16">
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="svg-li">
-                  <a class="link-svg" href="">
-                    <svg class="svg" width="16" height="16">
-                      <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="svg-li">
-                  <a class="link-svg" href="">
-                    <svg class="svg" width="16" height="16">
-                      <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="svg-li">
-                  <a class="link-svg" href="">
-                    <svg class="svg" width="16" height="16">
-                      <use href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </li>
-        </ul>
+              <h3 class="team-name">Ярослав Филимонов</h3>
+              <p class="team-paragraph">Сооснователь</p>
       </div>
     </section>
     <section class="site-apps">
       <div class="container">
-        <h2 class="h-portfolio">Our Portfolio</h2>
+        <h2 id="cars" class="h-portfolio">Наша Работа</h2>
         <ul class="main-site-apps">
           <li class="main-site-app">
             <div class="overlay">
               <picture>
                 <source media="(min-width: 768px) and (max-width: 1157px)" srcset="
-                                        ./images/img1px-mobile-banking.jpg  1x,
-                                        ./images/img2px-mobile-banking.jpg  2x
+                                        ./images/bmw5.jpg  1x,
+                                        ./images/bmw5.jpg  2x
                                       " app="288" height="280">
 
-                <source media="(min-width: 1158px)" srcset="./images/img-1x-dekstop1.jpg 1x,
-                                            ./images/img-2x-dekstop1.jpg 2x">
-                <img src="./images/img1px-mobile-banking.jpg" srcset="./images/img2px-mobile-banking.jpg 2px"
-                  alt="photo of cashless payment" width="288" height="280">
+                <source media="(min-width: 1158px)" srcset="./images/bmw5.jpg 1x,
+                                            ./images/bmw5.jpg 2x">
+                <img src="./images/bwm5.jpg" srcset="./images/bmw5.jpg 2px"
+                  alt="bmw 5 series" width="288" height="280">
               </picture>
 
               <p class="text-banking">
-                14 Stylish and User-Friendly App Design Concepts · Task
-                Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                · Cloud Storage App
+                Первая наша работа которая заключалась в поиске для клиента новой BMW 5 series 2021 года и вот спустя 3 недели активных поисков клиент доволен, а если клиент доволен довольны и мы!
               </p>
             </div>
             <div class="app">
-              <h3 class="portfolio-abzac">Banking App</h3>
-              <p class="site-paragraph">App</p>
+              <h3 class="portfolio-abzac">BMW 5 series</h3>
+              <p class="site-paragraph">2021</p>
             </div>
           </li>
           <li class="main-site-app">
             <div class="overlay">
               <picture>
                 <source media="(min-width: 768px) and (max-width: 1157px)" srcset="
-                                                        ./images/img1x-tablet-payment.jpg  1x,
-                                                        ./images/img2px-tablet-payment.jpg  2x
+                                                        ./images/bmwx5.jpg  1x,
+                                                        ./images/bmwx5.jpg  2x
                                                       " app="288" height="280">
-                <source media="(min-width: 1158px)" srcset="./images/img-2x-dekstop2.jpg 1x,
-                                                          ./images/img-2x-dekstop2.jpg 2x">
-                <img src="./images/img1px-mobile-payment.jpg" srcset="./images/img2px-mobile-payment.jpg 2px"
-                  alt="photo of cashless payment" width="288" height="280">
+                <source media="(min-width: 1158px)" srcset="./images/bmwx5.jpg 1x,
+                                                          ./images/bmwx5.jpg 2x">
+                <img src="./images/bmwx5.jpg" srcset="./images/bmwx5.jpg 2px"
+                  alt="bmw X5" width="288" height="280">
 
               </picture>
 
               <p class="text-banking">
-                14 Stylish and User-Friendly App Design Concepts · Task
-                Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                · Cloud Storage App
+                Это фото клиента после нашей работы с ним BMW X5 2022 года за 75 000 долларов на подбор данного автомобиля происходил около одного месяца!
+                Это была самая долгая работа!
               </p>
             </div>
             <div class="app">
-              <h3 class="portfolio-abzac">Cashless Payment</h3>
-              <p class="site-paragraph">Marketing</p>
+              <h3 class="portfolio-abzac">BMW X5</h3>
+              <p class="site-paragraph">2022 </p>
             </div>
           </li>
           <li class="main-site-app">
             <div class="overlay">
               <picture>
                 <source media="(min-width: 768px) and (max-width: 1157px)" srcset="
-                                                                      ./images/img1x-tablet-app.jpg  1x,
-                                                                      ./images/img2x-tablet-app.jpg  2x
+                                                                      ./images/jetta.jpg  1x,
+                                                                      ./images/jetta.jpg  2x
                                                                     " app="288" height="280">
-                <source media="(min-width: 1158px)" srcset="./images/img-2x-dekstop3.jpg 1x,
-                                                          ./images/img-2x-dekstop3.jpg 2x">
-                <img src="./images/img1px-mobile-app.jpg" srcset="./images/img2px-mobile-app.jpg 2px"
+                <source media="(min-width: 1158px)" srcset="./images/jetta.jpg 1x,
+                                                          ./images/jetta.jpg 2x">
+                <img src="./images/jetta.jpg" srcset="./images/jetta.jpg 2px"
                   alt="photo of medition app" width="288" height="280">
               </picture>
               <p class="text-banking">
-                14 Stylish and User-Friendly App Design Concepts · Task
-                Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                · Cloud Storage App
+                Это Volkswagen Jetta 2020 года VII поколения для нашего клиента с города Светлогорск, на данную машину мы потратили около 4 недель а клиент её приобрел за 8500$.
               </p>
             </div>
 
             <div class="app">
-              <h3 class="portfolio-abzac">Meditation App</h3>
-              <p class="site-paragraph">App</p>
+              <h3 class="portfolio-abzac">Volkswagen Jetta</h3>
+              <p class="site-paragraph">2020 </p>
             </div>
           </li>
           <li class="main-site-app">
             <div class="overlay">
               <picture>
                 <source media="(min-width: 768px) and (max-width: 1157px)" srcset="
-                                      ./images/img1x-tablet-taxi.jpg 1x,
-                                      ./images/img2x-tablet-taxi.jpg 2x
+                                      ./images/lada.jpg 1x,
+                                      ./images/lada.jpg 2x
                                     ">
-                <source media="(min-width: 1158px)" srcset="./images/img-2x-dekstop4.jpg 1x,
-                                                          ./images/img-2x-dekstop4.jpg 2x">
-                <img src="./images/img1px-mobile-taxi.jpg" srcset="./images/img2px-mobile-taxi.jpg 2px"
+                <source media="(min-width: 1158px)" srcset="./images/lada.jpg 1x,
+                                                          ./images/lada.jpg 2x">
+                <img src="./images/lada.jpg" srcset="./images/lada.jpg 2px"
                   alt="photo of taxi" width="288" height="280">
               </picture>
               <p class="text-banking">
-                14 Stylish and User-Friendly App Design Concepts · Task
-                Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                · Cloud Storage App
+                Lada Vest 2019 года, машина для нашего клиента из Новосибирской области была приобретена по полной предоплате через наш сервис!
               </p>
             </div>
             <div class="app">
-              <h3 class="portfolio-abzac">Taxi Service</h3>
-              <p class="site-paragraph">Marketing</p>
+              <h3 class="portfolio-abzac">Lada Vesta</h3>
+              <p class="site-paragraph">2019</p>
             </div>
           </li>
           <li class="main-site-app">
             <div class="overlay">
               <picture>
                 <source media="(min-width: 768px) and (max-width: 1157px)" srcset="
-                                                      ./images/img1x-tablet-screen.jpg 1x,
-                                                      ./images/img2x-tablet-screen.jpg 2x
+                                                      ./images/rover.jpg 1x,
+                                                      ./images/rover.jpg 2x
                                                     ">
-                <source media="(min-width: 1158px)" srcset="./images/img-2x-dekstop5.jpg 1x,
-                                                                        ./images/img-2x-dekstop5.jpg 2x">
-                <img src="./images/img1px-mobile-screen.jpg" srcset="./images/img2px-mobile-screen.jpg 2px"
-                  alt="photo of screen" width="288" height="280">
+                <source media="(min-width: 1158px)" srcset="./images/rover.jpg 1x,
+                                                                        ./images/rover.jpg 2x">
+                <img src="./images/rover.jpg" srcset="./images/rover.jpg 2px"
+                  alt="Range Rover" width="288" height="280">
               </picture>
 
               <p class="text-banking">
-                14 Stylish and User-Friendly App Design Concepts · Task
-                Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                · Cloud Storage App
+                Land Rover Range Rover Sport - Всем спорт! 
+                Это машина для нашего клиента с Владивостока, 5 литровый монстр, клиент остался доволен. 
               </p>
             </div>
             <div class="app">
-              <h3 class="portfolio-abzac">Screen Illustrations</h3>
-              <p class="site-paragraph">Design</p>
+              <h3 class="portfolio-abzac">Land Rover Range Rover Sport</h3>
+              <p class="site-paragraph">2021</p>
             </div>
           </li>
           <li class="main-site-app">
             <div class="overlay">
               <picture>
                 <source media="(min-width: 768px) and (max-width: 1157px)" srcset="
-                                                      ./images/img1x-tablet-online.jpg 1x,
-                                                      ./images/img2x-tablet-online.jpg 2x
+                                                      ./images/q8.jpg 1x,
+                                                      ./images/q8.jpg 2x
                                                     ">
-                <source media="(min-width: 1158px)" srcset="./images/img-2x-dekstop6.jpg 1x,
-                                                                        ./images/img-2x-dekstop6.jpg 2x">
-                <img src="./images/img1px-mobile-online.jpg" srcset="./images/img2px-mobile-online.jpg 2px"
+                <source media="(min-width: 1158px)" srcset="./images/q8.jpg 1x,
+                                                                        ./q8.jpg 2x">
+                <img src="./images/q8.jpg" srcset="./images/q8.jpg 2px"
                   alt="photo of online" width="288" height="280">
               </picture>
 
               <p class="text-banking">
-                14 Stylish and User-Friendly App Design Concepts · Task
-                Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                · Cloud Storage App
+                Audi Q8 2021 3.0 дизель, отличная семейная машина, так как у клиента семья состоит из 4 человек, наше решение было просмотр и подбор Audi Q8, клиент и его семья полностью довольны машиной! 
               </p>
             </div>
             <div class="app">
-              <h3 class="portfolio-abzac">Online Courses</h3>
-              <p class="site-paragraph">Marketing</p>
+              <h3 class="portfolio-abzac">Audi Q8 </h3>
+              <p class="site-paragraph">2021</p>
             </div>
           </li>
         </ul>
@@ -496,45 +358,12 @@
   <footer class="footer">
     <div class="foot-con container">
       <div class="footer-container">
-        <a class="footer-logo" href="./index.html">Web<span class="footer-logo-studio">Studio</span></a>
+        <a class="footer-logo" href="./index.html">Podbor<span class="footer-logo-studio">Car</span></a>
         <p class="footer-text">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
+          Мы найдём твою идеальную машину — тебе останется только сесть за руль и поехать!
         </p>
       </div>
-      <div class="icons-footer">
-        <p class="social-media">Social media</p>
-        <ul class="footer-ul">
-          <li class="svg-li">
-            <a class="link-svg" href="instagram.com">
-              <svg class="svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="svg-li">
-            <a class="link-svg" href="">
-              <svg class="svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="svg-li">
-            <a class="link-svg" href="">
-              <svg class="svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="svg-li">
-            <a class="link-svg" href="">
-              <svg class="svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
+      
       <div class="footer-email">
         <p class="email-text">Subscribe</p>
         <form class="email-form">
@@ -542,7 +371,7 @@
             <input name="user-email" type="email" placeholder="E-mail" class="email-input" id="user-email" />
           </label>
           <button type="submit" class="email-footer-button">
-            Subscribe
+            Подай заявку
             <svg class="svg-footer-button" width="24" height="24">
               <use href="./images/icons.svg#icon-subscribe"></use>
             </svg>
@@ -551,7 +380,7 @@
       </div>
     </div>
   </footer>
-  <div class="backdrop is-open">
+  <div class="backdrop *is-open*">
     <div class="modal">
       <button type="button" class="modal-close">
         <svg class="modal-svg" width="8" height="8">
@@ -632,10 +461,10 @@
       <address class="menu-address">
         <ul class="menu-contacts-list">
           <li class="menu-list-li">
-            <a class="menu-contacts current" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="menu-contacts current" href="tel:+79388652433">+7 (938) 865 2433</a>
           </li>
           <li class="menu-list-li">
-            <a class="menu-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="menu-contacts" href="mailto:podborcar@mail.ru">podborcar@mail.ru</a>
           </li>
         </ul>
         <ul class="ul-icon-menu">
